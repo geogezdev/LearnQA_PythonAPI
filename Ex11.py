@@ -13,6 +13,6 @@ cookies = response.cookies.get('HomeWork')
 
 
 def test_cookie():
-    assert cookies == "hw_value", f"Кука не равна значению 'hw_value'"
+    assert cookies == "hw_value", f"Полученная cookie не равна значению 'hw_value'"
 
 
