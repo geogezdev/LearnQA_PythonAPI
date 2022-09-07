@@ -4,7 +4,6 @@ from lib.base_case import BaseCase
 from lib.assertions import Assertions
 
 
-# python - m pytest - s .\ex14\test_user_auth.py
 
 class TestUserAuth(BaseCase):
     exclude_params = [
